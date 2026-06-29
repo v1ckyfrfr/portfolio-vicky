@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vicky Rachman — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav id="navbar">
+      <a href="#" class="nav-brand">Vicky Rachman</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#certificates">Certs</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#skills" class="mobile-link">Skills</a></li>
+        <li><a href="#works" class="mobile-link">Works</a></li>
+        <li><a href="#certificates" class="mobile-link">Certificates</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Frontend Developer & Sysadmin</p>
+          <h1>Hi, I'm <em>Vicky</em><br />Rachman.</h1>
+          <p class="hero-sub">
+            Student at SMK Dharma Karya — building things for the web and
+            learning systems along the way.
+          </p>
+          <div class="hero-actions">
+            <a href="#works" class="btn-primary">View Projects</a>
+            <a href="#contact" class="btn-ghost">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="../Assets/fotoku.jpg" alt="Vicky Rachman" />
+          </div>
+          <div class="photo-tag">Open to opportunities ✦</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT MEE -->
+    <section id="about" class="about">
+      <div class="section-inner">
+        <div class="about-grid">
+          <div class="about-img-wrap">
+            <img src="../Assets/fotoku2.jpg" alt="Vicky" />
+          </div>
+          <div class="about-text">
+            <span class="label">About Me</span>
+            <h2>A student who loves building things.</h2>
+            <p>
+              Nama saya <strong>Vicky Rachman</strong>, siswa SMK Dharma Karya
+              jurusan DKV. Di sekolah saya banyak belajar tentang desain
+              komunikasi visual, sementara di luar sekolah saya mendalami dunia
+              IT — khususnya web development dan system administration.
+            </p>
+            <p>
+              Saat ini saya sedang membangun karir sebagai
+              <strong>Frontend Developer</strong> dan <strong>Sysadmin</strong>,
+              dengan minat besar pada Linux, dan Cybersecurity.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-num">6+</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">10+</span>
+                <span class="stat-label">Certificates</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">2026</span>
+                <span class="stat-label">Active</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section id="stack" class="stack">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="label">Tools & Technologies</span>
+          <h2>Tech Stack</h2>
+        </div>
+
+        <div class="stack-groups">
+          <div class="stack-group">
+            <div class="stack-group-icon">
+              <i class="devicon-html5-plain"></i>
+            </div>
+            <h3>Frontend</h3>
+            <p class="stack-group-desc">
+              Building responsive and modern interfaces.
+            </p>
+            <div class="stack-divider"></div>
+            <div class="stack-items">
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--html">
+                  <i class="devicon-html5-plain"></i>
+                </div>
+                <span>HTML5</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--css">
+                  <i class="devicon-css3-plain"></i>
+                </div>
+                <span>CSS3</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--js">
+                  <i class="devicon-javascript-plain"></i>
+                </div>
+                <span>JavaScript</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--tailwind">
+                  <i class="devicon-tailwindcss-plain"></i>
+                </div>
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--react">
+                  <i class="devicon-react-original"></i>
+                </div>
+                <span>React</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stack-group">
+            <div class="stack-group-icon">
+              <i class="devicon-linux-plain"></i>
+            </div>
+            <h3>System Administration</h3>
+            <p class="stack-group-desc">
+              Linux servers, networking and automation.
+            </p>
+            <div class="stack-divider"></div>
+            <div class="stack-items">
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--linux">
+                  <i class="devicon-linux-plain"></i>
+                </div>
+                <span>Linux</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--debian">
+                  <i class="devicon-debian-plain"></i>
+                </div>
+                <span>Debian</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--arch">
+                  <i class="devicon-archlinux-plain"></i>
+                </div>
+                <span>Arch Linux</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--nginx">
+                  <i class="devicon-nginx-original"></i>
+                </div>
+                <span>Nginx</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--apache">
+                  <i class="devicon-apache-plain"></i>
+                </div>
+                <span>Apache</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--bash">
+                  <i class="devicon-bash-plain"></i>
+                </div>
+                <span>Bash</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--ssh">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <polyline points="7,9 10,12 7,15" />
+                    <line x1="12" y1="15" x2="17" y2="15" />
+                  </svg>
+                </div>
+                <span>SSH</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stack-group">
+            <div class="stack-group-icon">
+              <i class="devicon-git-plain"></i>
+            </div>
+            <h3>Tools</h3>
+            <p class="stack-group-desc">
+              Daily workflow and development tools.
+            </p>
+            <div class="stack-divider"></div>
+            <div class="stack-items">
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--git">
+                  <i class="devicon-git-plain"></i>
+                </div>
+                <span>Git</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--github">
+                  <i class="devicon-github-original"></i>
+                </div>
+                <span>GitHub</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--vscode">
+                  <i class="devicon-vscode-plain"></i>
+                </div>
+                <span>VS Code</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--terminal">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <rect x="3" y="4" width="18" height="16" rx="2" />
+                    <polyline points="7,9 10,12 7,15" />
+                    <line x1="12" y1="15" x2="17" y2="15" />
+                  </svg>
+                </div>
+                <span>Terminal</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--ps">
+                  <i class="devicon-photoshop-plain"></i>
+                </div>
+                <span>Photoshop</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-icon stack-icon--capcut">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M14 9l-5 3 5 3V9z" />
+                    <rect x="2" y="4" width="20" height="16" rx="3" />
+                  </svg>
+                </div>
+                <span>CapCut</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="label">What I Know</span>
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-item" data-pct="90">
+            <div class="skill-top">
+              <span class="skill-name">Video Editing</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-pct="90">
+            <div class="skill-top">
+              <span class="skill-name">Linux</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-pct="85">
+            <div class="skill-top">
+              <span class="skill-name">Bash Scripting</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-pct="85">
+            <div class="skill-top">
+              <span class="skill-name">HTML</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-pct="80">
+            <div class="skill-top">
+              <span class="skill-name">CSS</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-item" data-pct="70">
+            <div class="skill-top">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS/PROJECTS -->
+    <section id="works" class="works">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="label">Portfolio</span>
+          <h2>Projects</h2>
+        </div>
+        <div class="works-grid">
+          <div class="work-card">
+            <div class="work-img">
+              <img src="../Assets/foto1.jpg" alt="Modern CV" />
+            </div>
+            <div class="work-info">
+              <span class="work-tag">HTML / CSS</span>
+              <h3>Modern CV</h3>
+            </div>
+          </div>
+          <div class="work-card">
+            <div class="work-img">
+              <img src="../Assets/login.jpg" alt="Login Page" />
+            </div>
+            <div class="work-info">
+              <span class="work-tag">HTML / CSS</span>
+              <h3>Simple Login Page</h3>
+            </div>
+          </div>
+          <div class="work-card">
+            <div class="work-img">
+              <img src="../Assets/logo.jpg" alt="Fitness Logo" />
+            </div>
+            <div class="work-info">
+              <span class="work-tag">Adobe Photoshop</span>
+              <h3>Fitness Logo</h3>
+            </div>
+          </div>
+          <div class="work-card">
+            <a href="https://www.instagram.com/p/DWhBM6wj-Wa/" target="_blank">
+              <div class="work-img">
+                <img src="../Assets/circlek.jpg" alt="Video Editing" />
+              </div>
+              <div class="work-info">
+                <span class="work-tag">CapCut</span>
+                <h3>10 PM Circle K — Video Editing</h3>
+              </div>
+            </a>
+          </div>
+          <div class="work-card">
+            <a
+              href="https://github.com/v1ckyfrfr/artikel-bandung"
+              target="_blank"
+            >
+              <div class="work-img">
+                <img src="../Assets/artikel.jpg" alt="Article Website" />
+              </div>
+              <div class="work-info">
+                <span class="work-tag">HTML / CSS</span>
+                <h3>Simple Article Website</h3>
+              </div>
+            </a>
+          </div>
+          <div class="work-card">
+            <div class="work-img">
+              <img src="../Assets/VAuth.png" alt="VAuth" />
+            </div>
+            <div class="work-info">
+              <span class="work-tag"
+                >Node.js / Express / SQLite / HTML / Tailwind / JS
+              </span>
+              <h3>VAuth — Authentication App</h3>
+            </div>
+          </div>
+          <div class="work-card">
+            <div class="work-img">
+              <img src="../Assets/Vixy.png" alt="Vixy" />
+            </div>
+            <div class="work-info">
+              <span class="work-tag"
+                >Node.js / Express/ SQLite / HTML / CSS / JS</span
+              >
+              <h3>Vixy-AI — Personal AI Assistant</h3>
+            </div>
+          </div>
+          <div class="work-card">
+            <a href="https://echo-crypt-ruddy.vercel.app/" target="_blank">
+              <div class="work-img">
+                <img src="../Assets/echocrypt.png" alt="EchoCrypt" />
+              </div>
+              <div class="work-info">
+                <span class="work-tag"
+                  >React + Vite / WaveSurfer.js / Tailwind / Framer Motion /
+                  Sonner / Lucide React</span
+                >
+                <h3>EchoCrypt — Audio Steganography Lab</h3>
+              </div>
+            </a>
+          </div>
+          <div class="work-card">
+            <a
+              href="https://github.com/v1ckyfrfr/website-kelas"
+              target="_blank"
+            >
+              <div class="work-img">
+                <img src="../Assets/dkv.png" alt="Website Kelas" />
+              </div>
+              <div class="work-info">
+                <span class="work-tag"
+                  >Next.js / React / Javascript / Typescript / CSS
+                </span>
+                <h3>Website Kelas (DKV)</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="certificates">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="label">Credentials</span>
+          <h2>Certifications</h2>
+        </div>
+        <div class="cert-grid">
+          <a
+            href="https://www.dicoding.com/certificates/JMZVVD33RZN9"
+            target="_blank"
+            class="cert-card"
+          >
+            <div class="cert-img">
+              <img src="../Documents/sertifikat1.jpg" alt="AI Certificate" />
+            </div>
+            <p>Artificial Intelligence</p>
+          </a>
+          <a
+            href="https://coursera.org/share/7aa119b743070d9a7cf06873e4e5de81"
+            target="_blank"
+            class="cert-card"
+          >
+            <div class="cert-img">
+              <img src="../Documents/sertifikat2.jpg" alt="Cybersecurity" />
+            </div>
+            <p>Foundations of Cybersecurity</p>
+          </a>
+          <a
+            href="https://www.credly.com/badges/c400a5e3-607d-425f-bf7d-5d37871c2292/public_url"
+            target="_blank"
+            class="cert-card"
+          >
+            <div class="cert-img">
+              <img src="../Documents/sertifikat3.jpg" alt="Web Development" />
+            </div>
+            <p>Web Development</p>
+          </a>
+          <a
+            href="https://www.credly.com/badges/ba5a8758-f814-4676-95c4-dc64c7dcb140/public_url"
+            target="_blank"
+            class="cert-card"
+          >
+            <div class="cert-img">
+              <img
+                src="../Documents/sertifikat4.jpg"
+                alt="Cybersecurity Fundamentals"
+              />
+            </div>
+            <p>Cybersecurity Fundamentals</p>
+          </a>
+          <a
+            href="https://www.credly.com/badges/dd935215-6fd1-4380-80f0-ddba2df2bbb9/public_url"
+            target="_blank"
+            class="cert-card"
+          >
+            <div class="cert-img">
+              <img src="../Documents/sertifikat5.jpg" alt="AI Fundamentals" />
+            </div>
+            <p>AI Fundamentals</p>
+          </a>
+          <a
+            href="https://www.credly.com/badges/dabeac47-9d56-4176-8fda-bca172ef3e8b/public_url"
+            target="_blank"
+            class="cert-card"
+          >
+            <div class="cert-img">
+              <img src="../Documents/sertifikat6.jpg" alt="IT Fundamentals" />
+            </div>
+            <p>IT Fundamentals</p>
+          </a>
+          <a href="#" class="cert-card">
+            <div class="cert-img">
+              <img
+                src="../Documents/sertifikat7.jpg"
+                alt="Financial Literacy"
+              />
+            </div>
+            <p>Introduction to Financial Literacy</p>
+          </a>
+          <div class="cert-card no-link">
+            <div class="cert-img">
+              <img src="../Documents/sertifikat8.jpg" alt="Workshop PFN" />
+            </div>
+            <p>Workshop PFN</p>
+          </div>
+          <a href="#" class="cert-card">
+            <div class="cert-img">
+              <img src="../Documents/sertifikat9.jpg" alt="English Club" />
+            </div>
+            <p>English Club Level 2</p>
+          </a>
+          <a
+            href="https://coursera.org/share/f7449582035b4699ff6e6ad627ebe511"
+            target="_blank"
+            class="cert-card"
+          >
+            <div class="cert-img">
+              <img src="../Documents/sertifikat10.jpg" alt="OS and Security" />
+            </div>
+            <p>Computers, OS & Security</p>
+          </a>
+          <a
+            href="https://coursera.org/share/be942a5f5082003ac28820fa760e065c"
+            target="_blank"
+            class="cert-card"
+          >
+            <div class="cert-img">
+              <img
+                src="../Documents/sertifikat11.png"
+                alt="Red Hat Enterprise Linux"
+              />
+            </div>
+            <p>Fundamentals Of Red Hat Enterprise Linux</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="section-inner">
+        <div class="contact-box">
+          <span class="label">Let's Talk</span>
+          <h2>Want to work together?</h2>
+          <p>Feel free to reach out through any of these platforms.</p>
+          <div class="contact-links">
+            <a
+              href="https://www.instagram.com/v1ckyfr?igsh=MWg4eHIzdTVIcHNkdw=="
+              target="_blank"
+              class="contact-link"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle
+                  cx="17.5"
+                  cy="6.5"
+                  r="1"
+                  fill="currentColor"
+                  stroke="none"
+                />
+              </svg>
+              Instagram
+            </a>
+            <a href="mailto:vickyyrachman@gmail.com" class="contact-link">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <polyline points="2,4 12,14 22,4" />
+              </svg>
+              Email
+            </a>
+            <a
+              href="https://www.linkedin.com/in/vickyy-rachman-8a742b38b"
+              target="_blank"
+              class="contact-link"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-inner">
+        <span class="nav-brand">Vicky.R</span>
+        <p>© 2026 Vicky Rachman. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
