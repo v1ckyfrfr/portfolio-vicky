@@ -53,6 +53,7 @@ I'm currently focusing on:
 * Linux
 * Debian
 * Arch Linux
+* Red Hat Linux
 * Nginx
 * Apache
 * Bash
@@ -65,6 +66,7 @@ I'm currently focusing on:
 * VS Code
 * Terminal
 * Adobe Photoshop
+* Canva
 * CapCut
 * ChatGPT/Claude
 
