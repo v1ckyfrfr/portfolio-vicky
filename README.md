@@ -80,6 +80,7 @@ I'm currently focusing on:
 * HTML
 * CSS
 * JavaScript
+* OS Installation
 
 ---
 
