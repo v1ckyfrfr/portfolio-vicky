@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A personal portfolio website showcasing my projects, technical skills, certifications, and journey toward becoming a **Frontend Developer** and **System Administrator**.
+A personal portfolio website showcasing my projects, technical skills, certifications, and journey toward becoming a **Web Developer** and **Linux Enthusiast**.
 
 ## Preview
 
@@ -20,7 +20,6 @@ I'm currently focusing on:
 
 * Frontend Development
 * Linux & System Administration
-* Cybersecurity
 
 ---
 
@@ -40,7 +39,7 @@ I'm currently focusing on:
 
 ## Tech Stack
 
-### Frontend
+### Web Development
 
 * HTML5
 * CSS3
@@ -55,7 +54,6 @@ I'm currently focusing on:
 * Arch Linux
 * Red Hat Linux
 * Nginx
-* Apache
 * Bash
 * SSH
 
@@ -173,4 +171,4 @@ This portfolio is licensed under the **MIT License**.
 
 ---
 
-Made by **Vicky Rachman**
+Made by **Vicky Rachman (v1ckyfrfr)**
