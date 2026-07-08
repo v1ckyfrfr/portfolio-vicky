@@ -82,15 +82,15 @@ I'm currently focusing on:
 
 ---
 
-## Featured Projects
+## Personal Projects
 
-* Modern CV
-* Simple Login Page
+* Modern CV (Source Code gone)
+* Simple Login Page (Source Code gone)
 * Fitness Logo
 * 10 PM Circle K — Video Editing
 * Simple Article Website About Bandung
-* **VAuth** — Authentication App
-* **Vixy-AI** — Personal AI Assistant
+* **VAuth** — Authentication App (On Progress)
+* **Vixy-AI** — Personal AI Assistant (On progress)
 * **EchoCrypt** — Audio Steganography Lab
 * **Website Kelas (DKV)**
 
