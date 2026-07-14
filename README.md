@@ -77,6 +77,7 @@ I'm currently focusing on:
 * Bash Scripting
 * HTML
 * CSS
+* C Language
 * JavaScript
 * OS Installation
 
