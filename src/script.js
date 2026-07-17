@@ -29,7 +29,7 @@ const skillObserver = new IntersectionObserver(animateSkills, {
 });
 skillItems.forEach((item) => skillObserver.observe(item));
 
-// ── sections ─────────────────────────────────
+// ── sections (generic fade) ──────────────────────────
 const fadeEls = document.querySelectorAll(
   ".hero-text, .hero-photo, .about-grid, .skills-grid, .works-grid, .cert-grid, .contact-box",
 );
@@ -50,6 +50,34 @@ const fadeObserver = new IntersectionObserver(
 );
 
 fadeEls.forEach((el) => fadeObserver.observe(el));
+
+// ── experience
+const expItems = document.querySelectorAll(".experience-item");
+
+const expObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+
+      const item  = entry.target;
+      const index = [...expItems].indexOf(item);
+
+      setTimeout(() => {
+        item.classList.add("exp-visible");
+
+        const tags = item.querySelectorAll(".exp-tag");
+        tags.forEach((tag, j) => {
+          setTimeout(() => tag.classList.add("tag-visible"), 300 + j * 60);
+        });
+      }, index * 150);
+
+      expObserver.unobserve(item);
+    });
+  },
+  { threshold: 0.2 },
+);
+
+expItems.forEach((item) => expObserver.observe(item));
 
 // ── navbar scroll ─────────────────────────────
 window.addEventListener("scroll", () => {
