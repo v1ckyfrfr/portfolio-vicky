@@ -59,7 +59,7 @@ const expObserver = new IntersectionObserver(
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
 
-      const item  = entry.target;
+      const item = entry.target;
       const index = [...expItems].indexOf(item);
 
       setTimeout(() => {

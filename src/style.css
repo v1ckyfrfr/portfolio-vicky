@@ -863,7 +863,9 @@ footer p {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 32px;
-  transition: transform 0.3s ease, border-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
 }
 .exp-content:hover {
   transform: translateY(-4px);
@@ -936,7 +938,9 @@ footer p {
   font-weight: 500;
   color: var(--text);
   letter-spacing: 0.03em;
-  transition: border-color 0.2s, color 0.2s;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
 }
 .exp-content:hover .exp-tag {
   border-color: rgba(200, 240, 96, 0.2);
@@ -970,7 +974,9 @@ footer p {
   transform: translateY(0);
 }
 .exp-dot {
-  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s ease;
+  transition:
+    transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.4s ease;
 }
 .experience-item.exp-visible .exp-dot {
   animation: dotPop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
@@ -990,9 +996,18 @@ footer p {
 }
 
 @keyframes dotPop {
-  0%   { transform: scale(0); opacity: 0; }
-  60%  { transform: scale(1.35); opacity: 1; }
-  100% { transform: scale(1); opacity: 1; }
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.35);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* RESPONSIVE */
